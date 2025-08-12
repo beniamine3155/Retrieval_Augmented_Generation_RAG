@@ -5,3 +5,5 @@ faiss_cpu
 pydantic
 typing
 dotenv
+langchain_community
+beautifulsoup4
