@@ -14,3 +14,5 @@ sentence_transformers
 pypdf
 pandas
 pymupdf
+docx2txt
+python-docx
