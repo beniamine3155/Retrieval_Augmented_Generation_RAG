@@ -16,3 +16,6 @@ pandas
 pymupdf
 docx2txt
 python-docx
+matplotlib
+langchain_huggingface
+sentence_transformers
