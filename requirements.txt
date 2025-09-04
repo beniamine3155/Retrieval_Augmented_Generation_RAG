@@ -1,9 +1,14 @@
 langchain
 langgraph
 langchain_openai
+langchain_groq
 faiss_cpu
 pydantic
 typing
 dotenv
 langchain_community
 beautifulsoup4
+tiktoken
+chromadb
+sentence_transformers
+pypdf
