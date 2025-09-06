@@ -19,3 +19,4 @@ python-docx
 matplotlib
 langchain_huggingface
 sentence_transformers
+openpyxl
