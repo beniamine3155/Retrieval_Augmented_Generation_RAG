@@ -20,3 +20,4 @@ matplotlib
 langchain_huggingface
 sentence_transformers
 openpyxl
+jq
