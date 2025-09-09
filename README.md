@@ -1,19 +1,12 @@
 # Retrieval Augmented Generation (RAG) - Complete Implementation Guide
 
-A comprehensive repository demonstrating Retrieval-Augmented Generation (RAG) techniques, from basic data ingestion to advanced agentic RAG systems. This project provides hands-on examples of building production-ready RAG systems with multiple data sources, embedding techniques, vector databases, and intelligent agents.
+A comprehensive repository demonstrating Retrieval-Augmented Generation (RAG) techniques, from basic data ingestion to advanced agentic RAG systems. This repo provides hands-on examples of building production-ready RAG systems with multiple data sources, embedding techniques, vector databases, and intelligent agents.
 
-## 🎯 Overview
+## Overview
 
 Retrieval-Augmented Generation (RAG) is a powerful technique that combines the knowledge retrieval capabilities of vector databases with the generative power of Large Language Models (LLMs). This repository contains complete implementations covering every aspect of RAG systems.
 
-### Key Benefits of RAG:
-- **Reduces Hallucinations**: Provides factual, source-backed responses
-- **Up-to-date Information**: Access to current data without retraining models
-- **Source Attribution**: Ability to cite and reference original documents
-- **Domain-Specific Knowledge**: Leverage proprietary or specialized content
-- **Cost-Effective**: No need for expensive model fine-tuning
-
-## 🏗️ RAG Architecture
+## RAG Architecture
 
 ```
 Data Sources → Data Ingestion → Text Splitting → Embeddings → Vector Store
@@ -21,41 +14,7 @@ Data Sources → Data Ingestion → Text Splitting → Embeddings → Vector Sto
 User Query → Query Embedding → Similarity Search → Context Retrieval → LLM Generation
 ```
 
-## 📁 Project Structure
-
-```
-├── main.py                           # Main application entry point
-├── requirements.txt                  # Python dependencies
-├── pyproject.toml                   # Project configuration
-├── 
-├── Data_Ingestion/                  # 📥 Data Loading & Processing
-│   ├── 01_data_ingestion_textfiles.ipynb    # Text file processing
-│   ├── 02_pdf_files.ipynb                   # PDF document handling
-│   ├── 03_word_documents.ipynb              # Word document processing
-│   ├── 04_csv_excel.ipynb                   # Structured data (CSV/Excel)
-│   ├── 05_json_data.ipynb                   # JSON data processing
-│   ├── 06_sql_data.ipynb                    # Database integration
-│   └── data/                                # Sample datasets
-│       ├── text_files/                      # Plain text samples
-│       ├── pdf/                             # PDF documents
-│       ├── word_files/                      # Word documents
-│       ├── structured_files/                # CSV/Excel files
-│       ├── json_files/                      # JSON datasets
-│       └── databases/                       # SQLite databases
-│
-├── Embedding/                       # 🔢 Vector Representations
-│   └── embedding_technique.ipynb            # Embedding methods & similarity
-│
-├── VectorStore_VectorDB/           # 🗄️ Vector Database Management
-│   ├── vectorstore.ipynb                    # ChromaDB implementation
-│   ├── chroma_db/                           # Persistent vector storage
-│   └── data/                                # Sample documents
-│
-└── Agentic_Rag/                    # 🤖 Intelligent RAG Agents
-    └── agentic_rag.ipynb                    # LangGraph-based RAG agents
-```
-
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Environment Setup
 
@@ -86,7 +45,7 @@ GROQ_API_KEY=your_groq_api_key_here  # Optional
 python main.py
 ```
 
-## 📚 Learning Modules
+## Learning Modules
 
 ### 1. Data Ingestion (`Data_Ingestion/`)
 
@@ -160,7 +119,7 @@ Build intelligent RAG systems with autonomous agents:
   - Conversational memory
   - Tool-based decision making
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Core Libraries
 - **LangChain**: Document processing and RAG orchestration
@@ -181,7 +140,7 @@ Build intelligent RAG systems with autonomous agents:
 - **Groq**: High-speed inference
 - **Hugging Face**: Open-source models and embeddings
 
-## 🎯 Use Cases
+## Use Cases
 
 ### 1. Document Q&A Systems
 - Legal document analysis
@@ -234,34 +193,3 @@ Build intelligent RAG systems with autonomous agents:
 3. **Implement Vector Stores**: Set up efficient storage and retrieval
 4. **Build Basic RAG**: Create simple question-answering systems
 5. **Explore Agentic RAG**: Develop intelligent, autonomous systems
-
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to:
-- Add new data source integrations
-- Improve embedding techniques
-- Enhance vector store implementations
-- Create new agent architectures
-- Fix bugs and improve documentation
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- OpenAI for providing powerful language models and embeddings
-- LangChain team for the comprehensive RAG framework
-- ChromaDB for efficient vector storage solutions
-- The open-source community for various data processing libraries
-
-## 📞 Support
-
-For questions, issues, or discussions:
-- Open an issue in this repository
-- Check the documentation in individual notebooks
-- Review the code examples for implementation details
-
----
-
-**Start your RAG journey today!** 🚀 Begin with the data ingestion notebooks and gradually work your way up to building sophisticated agentic RAG systems.
